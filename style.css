@@ -1,0 +1,83 @@
+body {
+	background-color: rgb( 216, 187, 228);
+	color: black;
+	font-family: 'Dosis', sans-serif;
+	font-size: 17px;
+	text-align: center;
+}
+
+h1 {
+	color: 794c74;
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+}
+	
+
+h2 {
+	color: black;
+	font-family: 'Sansita Swashed', cursive;
+	font-weight: 100;
+}
+
+a {
+	color: purple;
+}
+
+a:hover {
+	color: pink;
+}
+
+div {
+	display: block;
+	background: white;
+	padding: 10px;
+	box-shadow: 10px 10px 30px; rgba(0,0,0,0.1)
+	border-radius: 9%
+	border: 7px;
+	width: 500px;
+	margin: 12px auto;
+}
+
+img {
+    width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+h1 { 
+	color : purple;
+}
+
+.btn-purple { 
+	background-color: rgb( 216, 187, 228);
+	color: #794c74;
+	padding:7px 10px;
+	border-radius: 7px
+}
+
+.lkd  { 
+	list-style: none;
+	padding-left: 0px;
+}
+
+.ldk li {
+	display: inline;
+	padding: 10px;
+}
+
+.lkd i {
+	font-size: 50px
+
+}
+
+@media ( max-height: 500px) {
+	.container {
+	whidth: 400px;
+	}
+}
+
+@media ( max-height: 700px) {
+	.container {
+	whidth: 600px;
+	}
+}
